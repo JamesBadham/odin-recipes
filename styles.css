@@ -8,31 +8,82 @@ body {
     font-family: "Lucida Console", monospace;
     background-color: #f4f4f4;
     color: #333;
+    text-align: center;
+}
+
+img {
+    width: 700px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;;
 }
 
 .page-header {
-    text-align: center;
     padding: 20px;
     background-color: rgb(90, 189, 189)
 }
 
-#recipe-list {
+.nav-section {
     margin: 30px auto;
     width: 300px;
+}
+
+.nav-item {
+    padding: 10px;
+    background-color: rgb(158, 90, 189);
+    border-radius: 5px;
+}
+
+#recipe-list {
     list-style: none;
 }
 
 .recipe-item {
     margin: 10px 0;
-    padding: 10px;
-    background-color: rgb(158, 90, 189);
-    border-radius: 5px;
-    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .recipe-link {
-    text-decoration: none;
-    color: white;
     display: inline-block;
     width: 100%;
+}
+
+.home-link {
+    display: block;
+    background-color: rgb(158, 90, 189);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.recipe-content {
+    width: 700px;
+    margin: 30px auto;
+    background-color:rgba(90, 189, 189, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.recipe-content h2 {
+    margin: 20px;
+}
+
+.recipe-content p {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.recipe-content ul,
+.recipe-content ol {
+    width: 60%;
+    text-align: left;
+    margin: 20px auto;
+}
+
+.recipe-content li {
+    margin: 10px 0;
 }
